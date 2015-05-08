@@ -8,7 +8,7 @@ $db = $m->selectDB('demoapp');
 
 $app = new Silex\Application(); 
 
-$app->get('/hello/{name}', function($name) use($app) { 
+$app->get('/hello/{name}', function($name) use($app, $db) { 
 
     $collection = new \MongoCollection($db, 'users');
     $userQuery = array('email' => 'foo@example.com');
