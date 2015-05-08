@@ -1,0 +1,12 @@
+{
+    "name": "garyr/demo-app",
+    "authors": [
+        {
+            "name": "Gary Rogers",
+            "email": "gmrwebde@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "~1.2"
+    }
+}
